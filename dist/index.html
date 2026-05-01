@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#030303">
+    <meta name="description" content="CineBlaze - Discover movies, TV shows, and more. Stream online for free.">
+    <meta name="keywords" content="movies, tv shows, streaming, free movies, online streaming, cinema">
+    <meta name="author" content="CineBlaze">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>CineBlaze | Discover Movies & TV Shows</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="preconnect" href="https://image.tmdb.org">
+    <link rel="preconnect" href="https://api.themoviedb.org">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="canonical" href="https://cineblaze.app/">
+    <!-- Open Graph -->
+    <meta property="og:title" content="CineBlaze | Discover Movies & TV Shows">
+    <meta property="og:description" content="Stream movies and TV shows online for free">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cineblaze.app/">
+    <meta property="og:site_name" content="CineBlaze">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CineBlaze">
+    <meta name="twitter:description" content="Stream movies and TV shows online for free">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            screens: {
+              'xs': '375px',
+              'sm': '640px',
+              'md': '768px',
+              'lg': '1024px',
+              'xl': '1280px',
+              '2xl': '1536px',
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #030303;
+            color: #fff;
+            margin: 0;
+            overflow-x: hidden;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0a0a0a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #222;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3b82f6;
+        }
+        .glass-panel {
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .hero-gradient {
+            background: linear-gradient(to top, rgba(3,3,3,1) 0%, rgba(3,3,3,0) 100%);
+        }
+        .hero-gradient-side {
+            background: linear-gradient(to right, rgba(3,3,3,0.8) 0%, rgba(3,3,3,0) 100%);
+        }
+    </style>
+
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-2MW8Enwn.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-router-87KSu4bl.js">
+  <link rel="modulepreload" crossorigin href="/assets/ui-BmfynHrL.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-Cn8WBexs.css">
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+<body>
+    <div id="root">
+        <!-- Loading state shown before React hydrates -->
+        <div style="background:#030303;min-height:100vh;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:16px;">
+            <div style="display:flex;align-items:center;gap:12px;">
+                <div style="width:40px;height:40px;background:#2563eb;border-radius:8px;display:flex;align-items:center;justify-content:center;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 17L12 22L22 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 12L12 17L22 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <h1 style="font-size:2.5rem;font-weight:900;font-style:italic;color:white;margin:0;">CINE<span style="color:#3b82f6;">BLAZE</span></h1>
+            </div>
+            <p style="color:#666;font-size:0.7rem;font-weight:700;letter-spacing:0.4em;text-transform:uppercase;">Loading...</p>
+        </div>
+        <noscript>
+            <div style="background:#030303;color:#fff;min-height:100vh;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;font-family:Inter,sans-serif;">
+                <h1 style="font-size:2rem;font-weight:900;font-style:italic;">CINE<span style="color:#3b82f6;">BLAZE</span></h1>
+                <p style="color:#666;">Please enable JavaScript to use this app.</p>
+            </div>
+        </noscript>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "CineBlaze - Ultimate Movie Database",
+  "description": "A high-fidelity cinematic movie database and discovery platform with real-time data from TMDB.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
